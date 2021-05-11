@@ -22,10 +22,10 @@ except:
         FORCE_DOCUMENTS = False
 
         # Chracter to use as a completed progress 
-        COMPLETED_STR = "🌑"
+        COMPLETED_STR = "➐"
 
         # Chracter to use as a incomplete progress
-        REMAINING_STR = "⚪"
+        REMAINING_STR = "➆"
 
         # DB URI for access
         DB_URI = ""
