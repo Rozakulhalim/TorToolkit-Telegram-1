@@ -1,3 +1,3 @@
-worker: bash start.sh
-web: bash start.sh
+worker: python3 -m tortoolkit
+web: python3 -m tortoolkit
 ps:scale worker=1
