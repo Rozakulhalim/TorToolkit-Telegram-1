@@ -562,19 +562,19 @@ async def handle_server_command(message):
 
     msg = (
         "<b>CPU STATS:-</b>\n"
-        f"Cores: {cores} Logical: {lcores}\n"
-        f"CPU Frequency: {freqcurrent}  Mhz Max: {freqmax}\n"
-        f"CPU Utilization: {cpupercent}%\n"
+        f"🧑‍🔧 Cores: {cores} Logical: {lcores}\n"
+        f"🖥️ CPU Frequency: {freqcurrent}  Mhz Max: {freqmax}\n"
+        f"💢 CPU Utilization: {cpupercent}%\n"
         "\n"
-        "<b>MEMORY STATS:-</b>\n"
-        f"Available: {memavailable}\n"
-        f"Total: {memtotal}\n"
-        f"Usage: {mempercent}%\n"
-        f"Free: {memfree}\n"
+        "<b>💽 MEMORY STATS:-</b>\n"
+        f"🎫 Available: {memavailable}\n"
+        f"📝 Total: {memtotal}\n"
+        f"📉 Usage: {mempercent}%\n"
+        f"📈 Free: {memfree}\n"
         "\n"
-        "<b>TRANSFER INFO:</b>\n"
-        f"Download: {dlb}\n"
-        f"Upload: {upb}\n"
+        "<b>📊 TRANSFER INFO 📊</b>\n"
+        f"🔽 Download: {dlb}\n"
+        f"🔼 Upload: {upb}\n"
     )
     await message.reply(msg, parse_mode="html")
 
@@ -614,10 +614,10 @@ async def about_me(message):
         rclone_m = "N/A"
 
     msg = (
-        "<b>Name</b>: <code>TorToolkit</code>\n"
+        "<b>Name</b>: <code>TorToolkit By @AboutReyshaNim</code>\n"
         f"<b>Version</b>: <code>{__version__}</code>\n"
-        f"<b>Telethon Version</b>: {telever}\n"
-        "<b>Created By</b>: @yaknight\n\n"
+        f"<b>Telethon Version</b>: <code> {telever}</code>\n"
+        "<b>Created By</b>: @AboutReyshaNim\n\n"
         "<u>Currents Configs:-</u>\n"
         "<b>Torrent Download Engine:-</b> <code>qBittorrent [4.3.0 fix active]</code> \n"
         "<b>Direct Link Download Engine:-</b> <code>aria2</code> \n"
